@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+svg {
+    width: 25px;
+    height: 25px;
+}
+
+svg:hover {
+    fill: brown;
+}
+
+.form_container {
+    max-width: 300px;
+
+}
+
+.header_container {
+    width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 40px;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: black;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav a:hover {
+    color: brown;
+}
+
+.weigth_a {
+    font-weight: 700;
+}
+
+.logo {
+    color: darkgray;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+
+span {
+    color: black;
+    font-weight: 700;
+}
+
+.header_icon {
+    display: flex;
+    gap: 35px;
+}
+
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+/* main cat  */
+.main p {
+    text-align: center;
+}
+
+/* main cat */
+
+/* footer */
+.foooter_container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+}
+
+.first_footer_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.first_footer_nav a:hover {
+    color: brown;
+}
+
+.second_footer_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.second_footer_nav a:hover {
+    color: brown;
+}
+
+.first_footer_nav a,
+.second_footer_nav a {
+    color: azure;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+/*        form         */
+
+.forms-container {
+    width: 1440px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.switch-form,
+.switch-form-log {
+    color: green;
+    margin-left: 5px;
+
+}
+
+
+.forms-container a:hover {
+    text-decoration: underline;
+}
+
+.loginForm,
+.registerForm {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 50px;
+    height: fit-content;
+    display: none;
+}
+
+
+
+#login-form,
+#register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+#login-form h2,
+#register-form h2 {
+    font-family: Montserrat;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.log-button,
+.reg-button {
+    padding: 15px;
+    border: 1px solid brown;
+    border-radius: 10px;
+}
+
+.log-button:hover,
+.reg-button:hover {
+    color: white;
+    background-color: brown;
+}

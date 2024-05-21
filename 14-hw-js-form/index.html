@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style/main.css" />
+</head>
+
+<body>
+  <header class="header"></header>
+  <!-- <main class="main">
+    <p><img src="img/123.webp" alt="" width="400px" /></p>
+    <p><img src="img/4567.webp" alt="" width="400px" /></p>
+  </main> -->
+
+
+  <section class="forms-container">
+    <div class="loginForm">
+      <form id="login-form" class="form active">
+        <h2>Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <button class="log-button" type="submit">Log in</button>
+        <p>Don't have an account?<a href="#" class="switch-form">Register</a></p>
+
+      </form>
+    </div>
+    <div class="registerForm">
+      <form id="register-form" class="form">
+        <h2>Register</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="reg-password">Password:</label>
+        <input type="password" id="reg-password" name="reg-password" required />
+        <button class="reg-button" type="submit">Register</button>
+        <p>Already have an account?<a href="#" class="switch-form-log">Log in</a></p>
+      </form>
+    </div>
+
+  </section>
+
+
+  <footer class="footer"></footer>
+
+
+  <script src="js/header.js" type="module"></script>
+  <script src="js/footer.js" type="module"></script>
+  <script src="js/forms.js"></script>
+
+</body>
+
+</html>
